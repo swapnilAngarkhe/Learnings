@@ -14,7 +14,7 @@ class flight():
 
 flight=flight(3)      
 
-people=["swapnil", "Nikhil", "Aaditya","who?"]  
+people=["swapnil", "Nikhil", "Aaditya","bakliwal"]  
 for person in people:
     success=flight.add_psg(person)
     if success:
