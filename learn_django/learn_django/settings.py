@@ -31,10 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    #
+    # ***add commas after each app***
     'hello',
     'newyear',
-    
+    'tasks',
     #
     'django.contrib.admin',
     'django.contrib.auth',
