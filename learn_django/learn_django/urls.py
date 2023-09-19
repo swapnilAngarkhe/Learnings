@@ -22,4 +22,5 @@ urlpatterns = [
     path('hello/', include ("hello.urls")),
     path('newyear/', include ("newyear.urls"))
     
+    
 ]
