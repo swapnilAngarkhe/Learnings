@@ -6,7 +6,7 @@ if len(sys.argv) !=2:
     sys.exit
 
 # making http request to the server
-response=requests.get("https://itunes.apple.com/search?entity=song&limi=1&term=" + sys.argv[1])
+response=requests.get(f"https://itunes.apple.com/search?entity=song&limi=1&term= {sys.argv[1]}")
 
 o=response.json()
 
