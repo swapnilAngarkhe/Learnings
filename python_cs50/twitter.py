@@ -35,8 +35,7 @@ url=input('paste your twitter profile url: ').strip()
 # but but but recall the very last one? (?:...) non-captering version? YES
 #below u can see the ?: used in www.\ which will not capture it even if its typed or not and making the gorup 1.
 #not to ignore at last we changed the username thingy to ranges
-matches=re.search(r"^https?://(?:www\.)?twitter\.com/([a-z0-9_])$", url, re.IGNORECASE)
-if matches:
+if matches :=re.search(r"^https?://(?:www\.)?twitter\.com/([a-z0-9_])$", url, re.IGNORECASE):
     print(f'hello, {matches.group(1)}')
 
 
