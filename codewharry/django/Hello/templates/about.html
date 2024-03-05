@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+  About
+{% endblock title %}
+  
+
+{% block body %}
+<h1 class="text-center">About Us</h1>
+  this is about block 
+
+  <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+  {% comment %} THIS IS CONTACT US {% endcomment %}
+
+  <h1 class="text-center">Contact Us</h1>
+
+    {% comment %} form {% endcomment %}
+    <div class="container mt-5">
+      <form method="post" action="/about">
+        {% csrf_token %}
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Your name">
+        </div>    
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control"  name="email" id="email" placeholder="Enter your E-mail">
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Phone number</label> 
+          <input type="text" class="form-control" name="phone" id="phone" placeholder="Your phone number">
+        </div>
+        <div class="mb-3">
+          <label for="msg" class="form-label">Message</label>
+          <textarea class="form-control" id="msg" name="desc" rows="3" placeholder="Your message"></textarea>
+        </div>        
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+
+    </div>
+  
+{% endblock body %}
+
+  
