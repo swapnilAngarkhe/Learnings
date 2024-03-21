@@ -1,0 +1,22 @@
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+
+h1, h2{
+    font-size: 70px;
+}
+
+#bulb{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+button{
+    padding: 5px;
+    font-size: 20px;
+    margin: 90px;
+}
