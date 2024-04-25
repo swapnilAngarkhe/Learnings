@@ -1,3 +1,0 @@
-//Destructering Object
-
-const co

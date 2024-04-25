@@ -15,8 +15,8 @@ console.log(n);
 //--------------------------------------------------------
 //JSON
 //JSON is basically object without name and key value both are strings
-{
-    "name":"samosa",
-    "game":"litrally zero"
-    "age": "23"
-}
+// {
+//     "name":"samosa",
+//     "game":"litrally zero"
+//     "age": "23"
+// }
