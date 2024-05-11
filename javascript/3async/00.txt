@@ -1,0 +1,15 @@
+asyinc when all the functions are run at the same time
+
+sync when the response comes one after another
+
+
+====sync for ex:
+console.log('namaste')
+
+
+===ex of asyinc:
+setIntervel
+axios
+fetch
+promises
+API
