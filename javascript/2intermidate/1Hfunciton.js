@@ -6,14 +6,14 @@ function abc(val){
 
 }
 
-abc(funciton(){
+abc(function(){
     console.log('hello');
 })
 
 
 //////////////////////////
 function xyz(){
-    return funciton (){
+    return function (){
         console.log('bruh');
     }
 }

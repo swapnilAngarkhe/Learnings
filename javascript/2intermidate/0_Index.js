@@ -7,7 +7,7 @@
 // prototypal inheretance 
 // this call apply bind 
 // pure fncs 
-// closurs 
+// closurs DO SEPRETLY 
 
 
 // 1. Accepts a funcitons or retunrs a funcitons or both is a heigher order funcitons
