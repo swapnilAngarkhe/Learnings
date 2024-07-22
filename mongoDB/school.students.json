@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "664a12a9506987bad4cdcdf6"
+  },
+  "name": "Tom",
+  "age": 23,
+  "gpa": 3.5,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "664a14a9506987bad4cdcdf7"
+  },
+  "name": "Patrik",
+  "age": 26,
+  "gpa": 4,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "664a14a9506987bad4cdcdf8"
+  },
+  "name": "Kanye",
+  "age": 26,
+  "gpa": 3.4,
+  "fullTime": true
+},
+{
+  "_id": {
+    "$oid": "664a14a9506987bad4cdcdf9"
+  },
+  "name": "Ronaldo",
+  "age": 24,
+  "gpa": 3,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "664a15a260650f231b411e98"
+  },
+  "name": "compass",
+  "age": 5,
+  "gpa": 5,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "664a166e60650f231b411e9a"
+  },
+  "name": "Patrik",
+  "age": 30,
+  "gpa": 3,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "664a166e60650f231b411e9b"
+  },
+  "name": "Spongebob",
+  "age": 28,
+  "gpa": 3,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "664a166e60650f231b411e9c"
+  },
+  "name": "Dan",
+  "age": 29,
+  "gpa": 4,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "664a1b16506987bad4cdcdfa"
+  },
+  "name": "Larry",
+  "age": 29,
+  "gpa": 3.2,
+  "fulltime": false,
+  "regDate": {
+    "$date": "2024-05-19T15:30:30.409Z"
+  },
+  "Courses": [
+    "Bio",
+    "Chem",
+    "Cal"
+  ],
+  "Address": {
+    "street": "Fake streets 101",
+    "city": "nagpur",
+    "zip": 69
+  },
+  "fullTime": true
+}]

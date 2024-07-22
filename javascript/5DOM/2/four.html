@@ -1,0 +1,51 @@
+<!-- Adding removing elements with slect querryes -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>four</title>
+</head>
+<body style="background-color:#212121; color:whitesmoke">
+
+    <ul class="lang">
+        <li>JS</li>
+    </ul>
+    
+</body>
+
+
+    <script>
+
+        function addLang(langName){
+            const li=document.createElement('li');
+            li.innerHTML=`${langName}`
+            document.querySelector('.lang').appendChild(li);
+        }
+
+        addLang("python");
+        addLang("C++");
+
+        function optiaddlang(LangOpti){
+            const li = document.createElement('li');
+            li.appendChild(document.createTextNode(LangOpti));
+            document.querySelector('.lang').appendChild(li);
+        }
+        optiaddlang('golang')
+
+        //edit
+        const secLang = document.querySelector('li:nth-child(2)');
+        const newli = document.createElement('li');
+        newli.textContent='Mojo'
+        secLang.replaceWith(newli);
+
+        //remove
+        
+
+
+
+    </script>
+
+</html>
