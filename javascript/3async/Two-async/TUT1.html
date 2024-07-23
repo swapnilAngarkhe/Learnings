@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRJ</title>
+</head>
+<body>
+
+    <h1> cnc </h1>
+    <button id="stop">stop</button>
+    
+</body>
+
+    <script>
+
+        const thisJs= function(){
+            const cnc =document.querySelector('h1')
+            cnc.innerHTML='THIS IS JS'
+            console.log('h1 changed')
+        }
+
+        const stopMe=setTimeout(thisJs,5000)
+
+        document.querySelector('#stop').addEventListener('click', function(){
+            clearTimeout(stopMe);
+            console.log('timeout stoped')
+        },false)
+
+    </script>
+
+</html>

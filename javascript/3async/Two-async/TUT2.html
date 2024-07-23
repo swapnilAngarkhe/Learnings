@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUT2</title>
+</head>
+<body>
+
+    <h1> TUT2 set interval </h1>
+
+    <p>repeats after every set interval</p>
+
+    <button id="startTimeout">start</button>
+    <button id="stopTimeout">stop</button>
+    
+</body>
+
+    <script>
+
+        let stopThis;
+
+        const startCount= document.querySelector('#startTimeout').addEventListener('click',function(){
+            console.log('count started');
+            const sayMyName = function (){   
+                console.log('swapnil', Date.now());
+            }
+            stopThis=setInterval(sayMyName, 3000);
+        })
+        
+        const stopCount = document.querySelector('#stopTimeout').addEventListener('click',function(){
+           if(stopThis){
+            clearInterval(stopThis);
+            console.log('stoped')
+           }else{
+            console.log('timer has not started yet.')
+           }
+    
+        })
+
+    </script>
+
+</html>
