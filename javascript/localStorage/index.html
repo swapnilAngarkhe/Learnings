@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCAL STORAGE</title>
+</head>
+<body>
+
+    <h1>local storage</h1>
+    <h1>sesson storage</h1>
+    
+</body>
+
+    <script>
+
+        let key= prompt('enter key you want to set.')
+         let value= prompt('enter value you want to set.')
+
+         localStorage.setItem(key,value);
+
+         localStorage.removeItem(key);
+
+        console.log(`${key}`);
+
+        ///sesson Storage;
+
+        let samosa=prompt('you like samosa?');
+        let yes=prompt('hell yeah');
+        sessionStorage.setItem(samosa, yes);
+
+        console.log(`
+            my bro like samosa right? ${samosa}
+        `)
+
+    </script>
+
+</html>
